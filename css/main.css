@@ -1,0 +1,443 @@
+@font-face{
+    font-family: "MuseoSansCyrl100"
+    src: url(../fonts/MuseoSansCyrl100.otf) format("truetype");
+}
+@font-face{
+    font-family: "MuseoSansCyrl300"
+    src: url(../fonts/MuseoSansCyrl300.otf) format("truetype");
+}
+@font-face{
+    font-family: "MuseoSansCyrl500"
+    src: url(../fonts/MuseoSansCyrl500.otf) format("truetype");
+}
+@media{min-width:992px}
+ul, li{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.logo{
+    margin-top: -5px;
+}
+.logo p{
+    font-family: "MuseoSansCyrl500";
+    padding-top: 20px;
+}
+.naimen{
+    font-family: "MuseoSansCyrl300"; /* Шрифт */
+    font-weight:bold; /* Жирный шрифт */
+    color: #3a3333;/* Цвет текста */
+
+}
+.cena{
+    color: #3a3333;
+    font-family: "MuseoSansCyrl300";
+
+}
+.header{
+        min-width: 1000px;
+}
+.main_header{
+    margin-bottom: -28px;
+}
+.menu_part{
+    font-family: "MuseoSansCyrl100";
+    padding-top: 14px;
+    color: #21120b;
+    margin-left: -140px;
+    padding-left: 100px;
+}
+.menu_item a{
+    font-family: "MuseoSansCyrl100";
+    color: #21120b;    
+}
+.phone{
+    font-family: "MuseoSansCyrl300";
+    padding-top: 10px;
+    color:rgb(33, 18, 11);
+    line-height: 23px;
+    padding-bottom: 3px
+}
+.main_header{
+    padding: 10px 0;
+    background-color: #fffefa;
+}
+.offer{
+    background: url(../img/header.jpeg);
+        min-width: 1000px;
+
+}
+.title__heading{
+        text-transform: uppercase;
+        font-family: "MuseoSansCyrl500";
+        text-shadow: red 0 0 1px;
+}
+.title{
+    text-align: center;
+    color: #fbf8ed;
+    padding-bottom: 225px;
+    padding-top: 177px;
+}
+.title__desk{
+    font-family: "MuseoSansCyrl300";
+    padding-top: 10px;
+    font-size: 17px;
+}
+.title__price___kg{
+    padding-top: 16px;
+    font-size: 15px;
+}
+.endnaim{
+    color: #f8c529
+}
+.title__price___cen{
+    border: 1px solid #f8c529;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px; 
+    font-family: "MuseoSansCyrl300";
+}
+.polosa{
+    height: 5px;
+    background-color: #decfcc;
+        min-width: 1000px;
+}
+.polosa_bottom{
+    height: 1px;
+    background-color: #696969;
+}
+.about{
+        background-color: #fefdf6;
+        min-width: 1000px;
+}
+.about__meat{
+    padding-left: 33px;
+}
+.meatphot{
+    padding-top: 20px
+}
+.about__meat h3{
+    font-size: 19px;
+    font-family: "MuseoSansCyrl300";
+    color: #2b2223;
+    text-align: left;
+    padding-top: 20px;
+    font-weight:bold
+}
+.about__meat p{
+    font-size: 16px;
+    text-align: left;
+    font-family: "MuseoSansCyrl300";  
+    color: #2b2223;
+    padding-top: 10px;
+    padding-bottom: 8px
+}
+.meat{
+    background-image: url(../img/ugli.jpeg);
+    padding-bottom: 30px;
+    background-size: cover;
+    min-width: 1000px;
+    
+    
+}
+.meath{
+    font-size: 22px; 
+}
+.meat_section__words{
+    text-align: center;
+    padding-top: 15px;
+    margin-left: -40px;
+}
+.meat_section__words h3{
+    font-size: 23px;
+}
+.meat_photo1{
+        padding: 30px;
+}
+.meat_photo2{
+        padding: 30px;
+
+}
+.meat_photo3{
+        padding: 30px;
+
+}
+.meat_photo4{
+        padding: 30px;
+
+}
+.drinks{
+    background: url(../img/moshito.jpeg);
+    min-width: 1000px;
+
+}
+.delivery{
+       background-color: #3d3935;
+    padding-bottom: 3px;
+        min-width: 1000px;
+}
+.delivery_conditions{
+    padding: 0;
+    margin: 0;
+    text-align-last: center;
+    color: #fdfdfd;
+    padding-bottom: 23px;
+    padding-top: 20px;
+    
+}
+.delivery_conditions h3{
+    font-family: "MuseoSansCyrl300";
+    font-size: 21px;
+    font-weight:bold; 
+}
+.delivery_conditions p{
+    font-family: "MuseoSansCyrl100";
+}
+.price{
+    color: #f8c529;
+}
+.delivery_condition__price{
+    border: 1px solid #f8c529;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;    
+}
+.footer{
+        min-width: 1000px;
+}
+.main_footer{
+    background-color: #e2e2e2;
+    padding-top: 30px;
+}
+.footer_bottom{
+    background-color: #fffefa;
+        min-width: 1000px;
+}
+.baranina{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;
+}
+.sheika{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;
+}
+.virezka{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;
+}
+.semga{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;
+}
+.wings{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;
+}
+.myakot{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;
+}
+.kebab{
+     height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;
+}
+.file{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;
+}
+.sheikanakost{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 5px; padding-right: 10px;
+}
+.heart{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;
+}
+.koreika{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;
+}
+.rebra{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;;
+}
+.snack{
+        min-width: 1000px;
+}
+.snack_section__words{
+    text-align: center;
+    padding-top: 23px;
+    margin-left: -40px;
+
+}
+.snack_section__words h4{
+        font-size: 22px;
+}
+.snack_photo1{
+        padding: 30px;
+}
+.snack_photo2{
+        padding: 30px;
+}
+.snack_photo3{
+        padding: 50px;
+}
+.mushrooms{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;;
+}
+.shawerma{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;;
+}
+.potato{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;;
+}
+.lavash{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;;
+}
+.brinza{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;;
+}
+.hash{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;;
+}
+.basturma{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;;
+    padding-bottom: 330px;
+    margin-top: -15px
+}
+.drinks_section__words{
+    text-align: center;
+    padding-top: 23px;
+    margin-left: -40px;
+}
+.drinks_section__words h4 {
+    font-size: 22px;
+}
+.drinks_photo1{
+        padding: 30px;
+}
+.drinks_photo2{
+        padding: 30px;
+}
+.compot{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;;
+}
+.chery{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;;
+}
+.bzhni{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 10px; padding-top: 20px; padding-left: 10px; padding-right: 10px;;
+}
+.mineralka{
+    height: 277px;
+    width: 262px;
+    margin-right: 50px;
+    text-align: center;
+    border: 1px solid black; margin-bottom: 20px; padding-top: 20px; padding-left: 10px; padding-right: 10px;;
+}
+.bottom_logo{
+    padding-top: 5px;;
+}
+.bottom_logo p{
+    font-family: "MuseoSansCyrl500";
+    padding-top: 25px;
+}
+.bottom_rights{
+    font-family: "MuseoSansCyrl100";
+    padding-top: 25px;
+    padding-left: 100px;
+    font-size: 15px;
+    
+}
+.bottom_phone{
+    font-family: "MuseoSansCyrl300";
+    padding-top: 25px;
+    font-size: 16px;
+}
+.contacts{
+    padding-top: 90px;
+    font-family: "MuseoSansCyrl300";   
+}
+.conct h3{
+        font-family: "MuseoSansCyrl300";
+    font-size: 21px;
+    font-weight:bold; 
+}
